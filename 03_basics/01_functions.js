@@ -38,3 +38,35 @@ function welcomeAnyOrphan(areYouOrphan) {
 }
 
 // welcomeAnyOrphan(true)
+
+
+
+function calculateCartPrice(val1, val2, ...num1) {
+    console.log(num1)
+}
+
+// calculateCartPrice(200, 400, 200, 1000, 5000)
+
+const user = {
+    name: "pandey",
+    price: 6000
+}
+
+function handleObjects(anyObject) {
+    console.log(`${anyObject.name} is paying ${anyObject.price}`)
+}
+
+// handleObjects(user)
+// handleObjects({
+//     name: "Rekhna",
+//     price: 250
+// })
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValueOfArray(anyArray) {
+    return anyArray[1]
+}
+
+// console.log(returnSecondValueOfArray(myNewArray))
+// console.log(returnSecondValueOfArray([1000, 4000, 45000, 3000]))
