@@ -59,3 +59,26 @@ const obj3 = {...obj1, ...obj2} // mostly used
 // console.log(tinderUser.hasOwnProperty('isLogged'))
 
 // for more experiments/knowledge/investigative-study, go to console and check out the methods there
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course   // object de-structure
+
+// console.log(courseInstructor);
+// console.log(instructor);
+
+// const {price} = course
+
+
+
+// JSON APIs intro
+
+// JSON is similar tp objects of js
+// we will work with JSON soon to handle APIs
