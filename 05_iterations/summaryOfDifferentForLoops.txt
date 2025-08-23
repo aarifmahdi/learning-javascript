@@ -1,0 +1,13 @@
+// for loop : used with array, objects, maps
+
+// forof loop is used with Arrays, strings, maps
+// forof loop cannot be used with objects
+
+// forin loops is used with objects, Arrays (primarily return array keys i.e. 0,1,2,3,...)
+// forin loops cannot be used with maps
+
+// foreach loop is the most common for loop used to work with Arrays
+// foreach loop gives your callback function an item (elements of array), index, array
+// callback function: do not have a name, used only for the limited scope where defined, can be arrow or any other function doesn't matter
+
+// you can manipulate array of objects and that's cool
