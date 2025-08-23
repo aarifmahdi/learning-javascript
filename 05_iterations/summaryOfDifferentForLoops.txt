@@ -11,3 +11,5 @@
 // callback function: do not have a name, used only for the limited scope where defined, can be arrow or any other function doesn't matter
 
 // you can manipulate array of objects and that's cool
+
+// imp 💡 :- foreach do not return a value! filter does! map does!
